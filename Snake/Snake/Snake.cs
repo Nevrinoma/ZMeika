@@ -10,6 +10,9 @@ namespace Snake
 	{
 		Direction direction;
 
+		
+
+
 		public Snake( Point tail, int length, Direction _direction )
 		{
 			direction = _direction;
@@ -71,6 +74,7 @@ namespace Snake
 			{
 				food.sym = head.sym;
 				pList.Add( food );
+				Console.ForegroundColor = ConsoleColor.Green;
 				return true;
 			}
 			else
