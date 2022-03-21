@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	class Figure
+	class Figure //класс 
 	{
 		protected List<Point> pList;
-
+		//функция прорисовки точек в массиве
 		public void Draw()
 		{
 			foreach ( Point p in pList )

@@ -8,22 +8,19 @@ namespace Snake
 {
 	class Point //класс содержащий подпрограммы для вывода и взаимодействия с точками
 	{
-		public int x;
-		public int y;
-		public char sym;
+		public int x; //положение точки х
+		public int y; //положение точки у
+		public char sym; //вид символа
 
-		public Point()
-		{
-		}
 
-		public Point(int x, int y, char sym)
+		public Point(int x, int y, char sym) //конструктор заимствующий значения 
 		{
 			this.x = x;
 			this.y = y;
 			this.sym = sym;
 		}
 
-		public Point(Point p)
+		public Point(Point p) 
 		{
 			x = p.x;
 			y = p.y;
