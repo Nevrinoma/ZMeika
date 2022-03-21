@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	class Point
+	class Point //класс содержащий подпрограммы для вывода и взаимодействия с точками
 	{
 		public int x;
 		public int y;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	class Walls
+	class Walls// класс для визуализации и взмаимодействия с игровым полем(стенками)
 	{
 		List<Figure> wallList;
 
@@ -38,7 +38,7 @@ namespace Snake
 			return false;
 		}
 
-		public void Draw()
+		public void Draw() //функция непосредственно выводящая стенки игрового поля
 		{
 			foreach ( var wall in wallList )
 			{

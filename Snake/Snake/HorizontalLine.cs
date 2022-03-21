@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Snake
 {
-	class HorizontalLine : Figure
+	class HorizontalLine : Figure //наследственный класс
 	{
-		public HorizontalLine(int xLeft, int xRight, int y, char sym)
+		public HorizontalLine(int xLeft, int xRight, int y, char sym) //функуция для создания левой и правой игрового поля игры
 		{
 			pList = new List<Point>();
 			for(int x = xLeft; x <= xRight; x++)

@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace Snake
 {
-	class Program
+	class Program //главный класс, содержащий информацию о размерах игрового поля, вид точек(как выглядит змейка и еда), добавление длинны змейки после поедания
 	{
         static void Main(string[] args)
 		{
@@ -52,7 +52,7 @@ namespace Snake
       }
 
 
-		static void WriteGameOver()
+		static void WriteGameOver()// функция которая выводит информацию после поражения в игре
 		{
 			int xOffset = 25;
 			int yOffset = 8;
